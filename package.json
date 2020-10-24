@@ -1,0 +1,23 @@
+{
+  "name": "@michchan/eslint-config",
+  "version": "1.0.0",
+  "description": "My shared eslint config package for different use cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michchan/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Michael Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michchan/eslint-config/issues"
+  },
+  "homepage": "https://github.com/michchan/eslint-config#readme"
+}
