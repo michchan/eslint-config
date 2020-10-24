@@ -1,4 +1,4 @@
-# eslint-config
+# @michchan/eslint-config
 
 [![NPM](https://nodei.co/npm/@michchan/eslint-config.png)](https://nodei.co/npm/@michchan/eslint-config/)
 
