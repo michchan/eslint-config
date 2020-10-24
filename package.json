@@ -4,7 +4,7 @@
   "description": "My shared eslint config package for different use cases",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/eslint"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,19 @@
   "bugs": {
     "url": "https://github.com/michchan/eslint-config/issues"
   },
-  "homepage": "https://github.com/michchan/eslint-config#readme"
+  "homepage": "https://github.com/michchan/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "7.x"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "4.x",
+    "@typescript-eslint/parser": "4.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "4.x"
+  },
+  "peerDependencies": {
+    "eslint": "7.x"
+  }
 }
