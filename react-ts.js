@@ -27,11 +27,15 @@ module.exports = {
     ...nodets.rules,
     ...react.rules,
 
-    "no-restricted-imports": [
-      "error",
-      // Merge import restrictions. The first item is the "error" string.
-      ...nodets.rules['no-restricted-imports'].slice(1),
-      ...react.rules['no-restricted-imports'].slice(1),
-    ]
+    "no-restricted-imports": ["error", {
+      "paths": [
+        ...nodets.rules['no-restricted-imports'][1]['paths'],
+        ...react.rules['no-restricted-imports'][1]['paths'],
+      ],
+      "patterns": [
+        ...nodets.rules['no-restricted-imports'][1]['patterns'],
+        ...react.rules['no-restricted-imports'][1]['patterns'],
+      ]
+    }]
   }
 }
