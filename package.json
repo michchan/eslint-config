@@ -4,8 +4,8 @@
   "description": "My shared eslint config package for different use cases",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/eslint",
-    "fix": "npm run test -- --fix"
+    "eslint": "node_modules/.bin/eslint",
+    "test": "node ./.test"
   },
   "repository": {
     "type": "git",
