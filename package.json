@@ -1,6 +1,6 @@
 {
   "name": "@michchan/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "My shared eslint config package for different use cases",
   "main": "index.js",
   "scripts": {
