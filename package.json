@@ -4,7 +4,7 @@
   "description": "My shared eslint config package for different use cases",
   "main": "index.js",
   "scripts": {
-    "eslint": "node_modules/.bin/eslint",
+    "eslint": "eslint",
     "test": "node ./.test"
   },
   "repository": {

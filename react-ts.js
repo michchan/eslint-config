@@ -26,5 +26,12 @@ module.exports = {
   "rules": {
     ...nodets.rules,
     ...react.rules,
+
+    "no-restricted-imports": [
+      "error",
+      // Merge import restrictions. The first item is the "error" string.
+      ...nodets.rules['no-restricted-imports'].slice(1),
+      ...react.rules['no-restricted-imports'].slice(1),
+    ]
   }
 }
