@@ -11,6 +11,10 @@ const react = require('./lib/react-basic')
 module.exports = {
   ...nodets,
   ...react,
+  "env": {
+    ...nodets.env,
+    ...react.env,
+  },
   "extends": [
     ...nodets.extends,
     ...react.extends,
