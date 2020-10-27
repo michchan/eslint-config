@@ -1,10 +1,8 @@
 /* eslint-disable sort-keys */
 /* eslint-disable max-lines */
-/* eslint-disable max-len */
 /* eslint-disable quote-props */
-/* eslint-disable @typescript-eslint/naming-convention */
-/* eslint-disable @typescript-eslint/quotes */
-/* eslint-disable @typescript-eslint/no-magic-numbers */
+/* eslint-disable quotes */
+/* eslint-disable no-magic-numbers */
 const es = require('./lib/es-basic')
 const ts = require('./lib/ts-basic')
 
@@ -75,5 +73,5 @@ module.exports = {
 
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": es.rules['no-unused-vars'],
-  }
+  },
 }
