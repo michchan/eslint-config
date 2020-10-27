@@ -54,7 +54,7 @@ module.exports = {
 If you are using `@michchan/eslint-config/react-ts`, you can disable it by adding the following environment variables before running an script (e.g. `react-scripts start`):
 
 ```sh
-REACT_APP_DEV_DISABLE_ESLINT=true
+REACT_APP_DEV_ESLINT_DISABLED=true
 ```
 
 This is useful to **disable Eslint on development with Create React App**, but remain checking in CI workflows.

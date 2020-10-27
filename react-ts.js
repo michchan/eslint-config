@@ -10,7 +10,7 @@ const react = require('./lib/react-basic')
  * Disable eslint on development with Create React App,
  * say when the project is too large to make the reloading so slow.
  */
-const isReactAppDisabled = process.env.REACT_APP_DEV_DISABLE_ESLINT
+const isReactAppDisabled = process.env.REACT_APP_DEV_ESLINT_DISABLED
 
 module.exports = {
   ...nodets,
