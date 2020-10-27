@@ -32,6 +32,10 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
 
+      # Run Eslint
+      - name: Run eslint
+        run: npm run eslint .
+
       # Run test
       - name: Run test
         run: npm run test
