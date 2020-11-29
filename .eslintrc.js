@@ -1,1 +1,1 @@
-module.exports = require('./lib/es-basic')
+module.exports = require('./default')
