@@ -54,7 +54,15 @@ module.exports = {
     "@typescript-eslint/no-empty-function": es.rules['no-empty-function'],
 
     "no-magic-numbers": "off",
-    "@typescript-eslint/no-magic-numbers": es.rules['no-magic-numbers'],
+    "@typescript-eslint/no-magic-numbers": [
+      es.rules['no-magic-numbers'][0],
+      {
+        ...es.rules['no-magic-numbers'][1],
+        "ignoreEnums": true,
+        "ignoreNumericLiteralTypes": true,
+        "ignoreReadonlyClassProperties": true,
+      },
+    ],
 
     "no-redeclare": "off",
     "@typescript-eslint/no-redeclare": es.rules['no-redeclare'],
