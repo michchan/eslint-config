@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.1](https://github.com/michchan/eslint-config/compare/v1.10.0...v1.10.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* invalid rule for react/jsx-max-props-per-line ([53e9d8a](https://github.com/michchan/eslint-config/commit/53e9d8a096b74f279d9270978f87512afc80541f))
+
 ## [1.10.0](https://github.com/michchan/eslint-config/compare/v1.9.0...v1.10.0) (2022-01-31)
 
 
