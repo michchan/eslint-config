@@ -3,6 +3,11 @@
   "version": "1.10.1",
   "description": "My shared eslint config package for different use cases",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.0"
+  },
   "scripts": {
     "eslint": "eslint",
     "test": "node ./.test",
