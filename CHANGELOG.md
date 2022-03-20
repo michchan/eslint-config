@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/michchan/eslint-config/compare/v1.10.3...v1.11.0) (2022-03-20)
+
+
+### Bug Fixes
+
+* upgrade lib in ts to esnext ([bed2390](https://github.com/michchan/eslint-config/commit/bed239064275a2b57407a857ada9e008ccf0868b))
+
 ### [1.10.3](https://github.com/michchan/eslint-config/compare/v1.10.2...v1.10.3) (2022-03-19)
 
 ### [1.10.2](https://github.com/michchan/eslint-config/compare/v1.10.1...v1.10.2) (2022-03-19)
