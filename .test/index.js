@@ -11,7 +11,7 @@ const configs = fs
 
 // Test each config
 configs.forEach((name) =>
-  execSync(`yarn eslint -- --config ./${name}`, {
+  execSync(`yarn eslint --config ./${name}`, {
     stdio: "inherit",
   })
 );
