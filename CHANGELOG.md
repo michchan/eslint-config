@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/michchan/eslint-config/compare/v1.11.0...v1.12.0) (2022-08-25)
+
+
+### Features
+
+* turn off capitalized-comments ([ef3fb18](https://github.com/michchan/eslint-config/commit/ef3fb1852f6277097bbbbc0502064991ed8971a0))
+
 ## [1.11.0](https://github.com/michchan/eslint-config/compare/v1.10.3...v1.11.0) (2022-03-20)
 
 
